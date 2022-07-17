@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Quicksand:wght@300;500;600&display=swap');
+
+
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --padding-container: 100px 0;
+    --color-title: #001A49
+}
+
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+
+}
+
+.nav__title {
+    font-weight:300;
+    text-align: center;
+    color: #ffff;
+
+}
+
+.botonera {
+    text-align: center;
+    padding: 0;
+
+    
+}
+
+.botones {
+    display: inline-block;
+    padding: 50px 100px;
+    float: none;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+
+a {
+    color: #a0a0a0;
+    text-decoration: none;
+    position: relative;
+    padding: 0 10px;
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0%;
+    bottom: -10px;
+    transition: 0.2s;
+
+}
+
+a:hover{
+    color: white;
+    transition: 0.2s;
+}
+
+a:hover:after{
+    width: 100%;
+
+}
+
+.section-text  {
+    color: #ffff;
+    padding: 100px;
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.img-logos{
+    align-items: center;
+    display: inline-block;
+    position: absolute;
+    background-size: cover;
+    padding-top: 50px;
+    
+
+
+}
+
+.html-img{
+    border-radius: 50%;
+    
+}
+
+.css-img{
+    border-radius: 50%;
+    
+
+}
+
+.js-img{
+    border-radius: 50%;
+    
+}
+
+.avatar-img {
+    border-radius: 50%;
+}
+
+
+.about-text{
+    color: white;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.perfil{
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.about-text{
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
